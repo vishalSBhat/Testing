@@ -2,6 +2,7 @@ $(document).ready(function(){
   if(window.matchMedia('(max-width: 768px)').matches)
   {
     document.getElementById("sample").addEventListener("touchend", create);
+    document.getElementById("sample").removeEventListener("touchend", create);
   }
   else
   {
