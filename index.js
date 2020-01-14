@@ -1,8 +1,8 @@
 $(document).ready(function(){
   if(window.matchMedia('(max-width: 768px)').matches)
   {
-    $(window).on("tap",create)
-    $(this).off("tap,create);
+    document.getElementByTag("body").addEventListener("touchend", create);
+    document.getElementByTag("body").removeEventListener("touchend", create);
   }
   else
   {
