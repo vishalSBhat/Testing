@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  if(window.matchMedia('(max-width: 768px)').matches)
+  /*if(window.matchMedia('(max-width: 768px)').matches)
   {
     $(window).bind("tap.start",function(){
       create();
@@ -7,12 +7,12 @@ $(document).ready(function(){
   });
   }
   else
-  {
+  {*/
     $(window).bind("keypress.start",function(){
       create();
     $(this).unbind("keypress.start");
     });
-  }
+  
 
 });
 
