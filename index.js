@@ -1,7 +1,7 @@
 $(document).ready(function(){
   if(window.matchMedia('(max-width: 768px)').matches)
   {
-    document.getElementByTag("body").addEventListener("touchend", create);
+    document.getElementByClass("title").addEventListener("touchend", create);
   }
   else
   {
