@@ -1,18 +1,18 @@
 $(document).ready(function(){
-  /*if(window.matchMedia('(max-width: 768px)').matches)
+  if(window.matchMedia('(max-width: 768px)').matches)
   {
-    $(window).bind("tap.start",function(){
+    $(window).on("tap",function(){
       create();
-    $(this).unbind("tap.start");
+    $(this).off("tap");
   });
   }
   else
-  {*/
+  {
     $(window).bind("keypress.start",function(){
       create();
     $(this).unbind("keypress.start");
     });
-  
+  }
 
 });
 
