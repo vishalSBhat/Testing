@@ -1,10 +1,8 @@
 $(document).ready(function(){
   if(window.matchMedia('(max-width: 768px)').matches)
   {
-    $(window).on("tap",function(){
-      create();
-    $(this).off("tap");
-  });
+    $(window).on("tap",create)
+    $(this).off("tap,create);
   }
   else
   {
