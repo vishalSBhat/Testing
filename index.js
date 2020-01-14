@@ -50,23 +50,23 @@ function anim(but) {
 function music(id) {
   switch (id) {
     case "red":
-      var red = new Audio("audios/red.mp3");
+      var red = new Audio("red.mp3");
       red.play();
       break;
       case "blue":
-        var blue = new Audio("audios/blue.mp3");
+        var blue = new Audio("blue.mp3");
         blue.play();
         break;
         case "yellow":
-          var yellow = new Audio("audios/yellow.mp3");
+          var yellow = new Audio("yellow.mp3");
           yellow.play();
           break;
           case "green":
-            var green = new Audio("audios/green.mp3");
+            var green = new Audio("green.mp3");
             green.play();
             break;
             default:
-            var wrong = new Audio("audios/wrong.mp3");
+            var wrong = new Audio("wrong.mp3");
   }
 }
 
