@@ -1,9 +1,8 @@
 $(document).ready(function(){
   if(window.matchMedia('(max-width: 768px)').matches)
   {
-    $(".mob").on("tap.start",function(){
+    $(".mob").on("tap",function(){
       create();
-    $(this).off("tap.start");
     });
   }
   else
