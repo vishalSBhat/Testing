@@ -2,6 +2,8 @@ body{
   background-color: #f0e3ff;
 }
 
+/* game title and level display */
+
 .level{
   margin: 2% auto;
   margin-bottom: 2%;
@@ -12,26 +14,34 @@ body{
 .title{
   font-size: 40px;
   font-family: 'Press Start 2P', cursive;
-  /*font-family: 'Lobster', cursive;*/
   color: #0f4c75;
 }
+
+/* hiding title of phn display */
 
 .mob{
   display: none;
 }
 
+/* box holding all 4 squares */
+
 .container{
   margin: 3% auto;
 }
 
+/* 1 row contains 2 squares..totally 2 rows inside container */
+
 .row{
   margin: 4% 15%;
 }
+
+
+
 .box{
   display: inline-block;
   width: 15vw;
   border: 5px solid black;
-  border-radius: 15px;
+  border-radius: 50px;
   margin: 10px auto;
   height: 15vw;
 }
@@ -57,9 +67,7 @@ body{
   background-color: black;
 }
 
-.game-over{
-
-}
+/* layout changes for mobile phones */
 
 @media only screen and (max-width: 768px) {
   .level{
@@ -71,6 +79,7 @@ body{
     font-size: 30px;
   }
 
+/* hiding title of pc display */
   .pc{
     display: none;
   }
